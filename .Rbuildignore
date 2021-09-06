@@ -1,2 +1,5 @@
 ^gazeR\.Rproj$
 ^\.Rproj\.user$
+^\.github$
+^\.travis\.yml$
+^README\.Rmd$
