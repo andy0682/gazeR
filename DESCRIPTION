@@ -1,0 +1,21 @@
+Package: gazeR
+Title: Identification of visual fixations from eye-tracking data
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Andres",
+           family = "Mitsumasu",
+           role = c("aut", "cre"),
+           email = "andres.mitsumasu@protonmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Application of Density Based Clustering to identify visual fixations and differentiate them from eye-movements (saccades).
+License: GPL-3
+Depends: R (>= 3.3.1)
+Imports: 
+  dbscan
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
