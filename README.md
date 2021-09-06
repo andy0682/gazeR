@@ -9,9 +9,9 @@ Status](https://app.travis-ci.com/andy0682/gazeR.svg?branch=master)](https://app
 
 The goal of gazeR is to identify visual fixations from eye-tracking data
 with Density Based Clustering. For now the only tool is based on the
-dbscan algorithm (from the dbscan library)
+dbscan algorithm (from the dbscan library).
 
-Here is a brief description of the pacage implementation procedure:
+Here is a brief description of the package implementation procedure:
 
 -   The package and its documentations were initiated in Rstudio with
     the devtools and roxygen2 libraries.
@@ -20,12 +20,12 @@ Here is a brief description of the pacage implementation procedure:
 -   Final full check (as with R cmd check) was performed with the
     devtools::check() function.
 -   The packages was then pushed to this GitHub repository.
--   Continuous integration with Travis (app.travis-ci.com) was
-    implemented with github_actions.
+-   Continuous integration with Travis was implemented via
+    github_actions (<https://app.travis-ci.com/github/andy0682/gazeR>)
 
 ## Installation
 
-You can install the released version of gazeR from:
+You can install this version under development of gazeR from:
 
 ``` r
 # install.packages("devtools")
